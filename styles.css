@@ -1,5 +1,52 @@
+/*  images */
+
 img {
     width: 40%;
     max-height:500px;
-    
 }
+
+/* nav bar */
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Puts the links in the center */
+    background-color: #2f8c57;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 0; /* adds space between nav bar and heading/title below */
+    position: fixed; /* keeps nav bar at the top*/
+    width: 100%; /* this makes the nav bar extend across the page */
+    top: 0; /* for nav bar to start at the top of the page */
+    left: 0; /* for nav bar to start at the left of the page */
+}
+
+.nav li {
+    display: inline-block; /* makes the link appear side-by-side*/
+    margin: 0 20px; /* spacing between the links is 20 pixels */
+}
+
+
+.nav li a {
+    display: block; /* link is clickable in "block" format-- anywhere in the block activates the link*/
+    padding: 10px 14px;
+    text-decoration: none; /* used to remove the underline from the links */
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav li a:hover {
+    color: #ffd900; /* changes color to gold when hovering above link */
+}
+
+
+/* main section*/
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 75px; /* creates a gap of 75 pixels from the nav bar and the next heading/title */
+    background-color: #f6f0e5;
+}
+
