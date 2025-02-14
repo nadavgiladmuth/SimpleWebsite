@@ -1,34 +1,30 @@
-/*  images */
-
 img {
     width: 40%;
-    max-height:500px;
+    max-height: 500px;
 }
 
 /* nav bar */
-
 .nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center; /* Puts the links in the center */
+    text-align: center; /* puts the links in the center */
     background-color: #2f8c57;
     font-family: 'Poppins', sans-serif;
     padding: 10px 0; /* adds space between nav bar and heading/title below */
-    position: fixed; /* keeps nav bar at the top*/
+    position: fixed; /* keeps nav bar at the top */
     width: 100%; /* this makes the nav bar extend across the page */
     top: 0; /* for nav bar to start at the top of the page */
     left: 0; /* for nav bar to start at the left of the page */
 }
 
 .nav li {
-    display: inline-block; /* makes the link appear side-by-side*/
+    display: inline-block; /* makes the link appear side-by-side */
     margin: 0 20px; /* spacing between the links is 20 pixels */
 }
 
-
 .nav li a {
-    display: block; /* link is clickable in "block" format-- anywhere in the block activates the link*/
+    display: block; /* link is clickable in "block" format-- anywhere in the block activates the link */
     padding: 10px 14px;
     text-decoration: none; /* used to remove the underline from the links */
     font-size: 18px;
@@ -40,13 +36,60 @@ img {
     color: #ffd900; /* changes color to gold when hovering above link */
 }
 
-
-/* main section*/
-
-
+/* main section */
 body {
     font-family: 'Poppins', sans-serif;
     margin-top: 75px; /* creates a gap of 75 pixels from the nav bar and the next heading/title */
     background-color: #f6f0e5;
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* creates a grid of two coloms */
+    gap: 20px; 
+}
+
+.image-card {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.image-card img {
+    width: 80%; 
+    max-height: 500px;
+}
+
+.image-card p {
+    margin: 6px 0; /*  more spacing between text */
+    font-size: 16px; 
+}
+
+
+/* headings */
+h2 {
+    text-align: center; /* put the heading in the center */
+    font-family: 'Georgia', serif; 
+    font-size: 35px; 
+    color: #2C3E50; 
+    margin-bottom: 20px;
+}
+
+h2 { /* for gallery text */
+    font-size: 50px; 
+    color: #2C3E50; 
+}
+
+h3 {
+    text-align: center; /* put the heading in the center */
+    font-family: 'Georgia', serif; 
+    font-size: 35px; 
+    color: #2C3E50; 
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 800px) {/* adjustable on different screens/devices */
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+}
