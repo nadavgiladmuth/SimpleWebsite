@@ -41,6 +41,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin-top: 75px; /* creates a gap of 75 pixels from the nav bar and the next heading/title */
     background-color: #f6f0e5;
+    font-family: "Courier New", Courier, monospace;
 }
 
 .gallery {
