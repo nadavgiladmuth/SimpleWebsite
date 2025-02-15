@@ -33,13 +33,13 @@ img {
 }
 
 .nav li a:hover {
-    color: #ffd900; /* changes color to gold when hovering above link */
+    color: #ffd900; /* changes color to gold when hovering abov link */
 }
 
-/* main section */
+/* formatting */
 body {
     font-family: 'Poppins', sans-serif;
-    margin-top: 75px; /* creates a gap of 75 pixels from the nav bar and the next heading/title */
+    margin-top: 75px; /* creates a gap of 75 pixls from the nav bar and the next heading/title */
     background-color: #f6f0e5;
     font-family: "Courier New", Courier, monospace;
 }
@@ -93,4 +93,27 @@ h3 {
     .gallery {
         grid-template-columns: 1fr;
     }
+}
+
+
+/* buttons */
+
+.buttons {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button {
+    background-color: #2f8c57;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #246a44;
 }
